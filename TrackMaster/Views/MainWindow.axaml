@@ -1,0 +1,38 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:TrackMaster.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TrackMaster.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/hello.ico"
+        Title="TrackMaster">
+
+	<SplitView IsPaneOpen="True"
+			   OpenPaneLength="200"
+			   CompactPaneLength="48"
+			   DisplayMode="CompactInline">
+		<SplitView.Pane>
+			<StackPanel>
+				<ListBox ItemsSource="{Binding Items}"
+						 SelectedItem="{Binding SelectedListItem}">
+					<ListBox.ItemTemplate>
+						<DataTemplate DataType="{x:Type vm:ListItemTemplate}">
+							<StackPanel Spacing="15" Orientation="Horizontal">
+								<TextBlock Text="{Binding Label}"/>
+							</StackPanel>
+						</DataTemplate>
+					</ListBox.ItemTemplate>
+				</ListBox>
+
+			</StackPanel>
+		</SplitView.Pane>
+		<SplitView.Content>
+			<TransitioningContentControl Content="{Binding CurrentPage}"/>
+		</SplitView.Content>
+	</SplitView>
+
+    
+
+</Window>
