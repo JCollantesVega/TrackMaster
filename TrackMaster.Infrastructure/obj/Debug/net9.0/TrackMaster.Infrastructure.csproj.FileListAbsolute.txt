@@ -1,6 +1,0 @@
-C:\Users\colla\source\repos\TrackMaster\TrackMaster.Infrastructure\obj\Debug\net9.0\TrackMaster.Infrastructure.csproj.AssemblyReference.cache
-C:\Users\colla\source\repos\TrackMaster\TrackMaster.Infrastructure\obj\Debug\net9.0\TrackMaster.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\colla\source\repos\TrackMaster\TrackMaster.Infrastructure\obj\Debug\net9.0\TrackMaster.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\colla\source\repos\TrackMaster\TrackMaster.Infrastructure\obj\Debug\net9.0\TrackMaster.Infrastructure.AssemblyInfo.cs
-C:\Users\colla\source\repos\TrackMaster\TrackMaster.Infrastructure\obj\Debug\net9.0\TrackMaster.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\colla\source\repos\TrackMaster\TrackMaster.Infrastructure\obj\Debug\net9.0\TrackMaster.Infrastructure.sourcelink.json
