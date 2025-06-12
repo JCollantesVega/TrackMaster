@@ -1,3 +1,4 @@
 *.json
 .vs/
 .obj/
+.bin/
