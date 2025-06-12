@@ -7,7 +7,7 @@ using TrackMaster.Core.Models;
 
 namespace TrackMaster.Core.Services.Telemetry
 {
-    public class SessionMonitor
+    public class SessionMonitor : ISessionMonitor
     {
 
         private readonly AssettoCorsaMemoryReader _reader;
@@ -57,7 +57,7 @@ namespace TrackMaster.Core.Services.Telemetry
                         SessionId = $"{graphics.Session}_{DateTime.UtcNow:yyyyMMdd_HHmmss}",
                         Track = staticInfo.Track,
                         SessionType = graphics.Session.ToString(),
-                        DateTime = DateTime.Now,
+                        DateTime = DateTime.UtcNow,
                         Stints = new()
                     };
                 }

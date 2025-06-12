@@ -7,9 +7,9 @@ C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\TrackM
 C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\TrackMaster.Core.AssemblyInfoInputs.cache
 C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\TrackMaster.Core.AssemblyInfo.cs
 C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\TrackMaster.Core.csproj.CoreCompileInputs.cache
+C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\TrackMaster.Core.sourcelink.json
 C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\TrackMas.CD32F9D1.Up2Date
 C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\TrackMaster.Core.dll
 C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\refint\TrackMaster.Core.dll
 C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\TrackMaster.Core.pdb
 C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\ref\TrackMaster.Core.dll
-C:\Users\colla\source\repos\TrackMaster\TrackMaster.Core\obj\Debug\net8.0\TrackMaster.Core.sourcelink.json

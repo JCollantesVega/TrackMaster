@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-TrackMaster.Infrastructure-aa176199-4ab9-4f97-a8d7-147036be378a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="trackmaster-b063d-firebase-adminsdk-fbsvc-85438f0569.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="trackmaster-b063d-firebase-adminsdk-fbsvc-85438f0569.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="3.2.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.70.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrackMaster.Core\TrackMaster.Core.csproj" />
+  </ItemGroup>
+</Project>

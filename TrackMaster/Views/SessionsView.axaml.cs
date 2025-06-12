@@ -10,6 +10,5 @@ public partial class SessionsView : UserControl
     public SessionsView()
     {
         InitializeComponent();
-        DataContext = new SessionsViewModel();
     }
 }

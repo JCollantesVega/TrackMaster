@@ -3,8 +3,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 			 xmlns:vm="clr-namespace:TrackMaster.ViewModels"
+			 xmlns:item="clr-namespace:TrackMaster.ViewModels"
 			 x:DataType="vm:SessionsViewModel"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="TrackMaster.Views.SessionsView">
-  <TextBlock Text="{Binding Title}" HorizontalAlignment="Center"/>
+
+	<Grid RowDefinitions="Auto, *" Margin="10">
+		<ListBox ItemsSource="{Binding Sessions}" 
+				 SelectedItem="{Binding SelectedSession}">
+			<ListBox.ItemTemplate>
+				<DataTemplate x:DataType="item:SessionListItemViewModel">
+					<StackPanel>
+						<TextBlock Text="{Binding Track}"/>
+						<TextBlock Text="{Binding DateTime}"/>
+						<TextBlock Text="{Binding SessionType}"/>
+					</StackPanel>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	</Grid>
+
+
 </UserControl>
